@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+	text-decoration: none;
+  font-size: 20px;
+}
+body {
+  background-image: url(../img/cover.jpg);
+  background-size: 100%;
+}
+h1, h3, h4, h5 {
+	color:  white;
+	background: #032c0b;
+	text-align: center;
+  text-shadow: 1px 1px 1px #000;
+	display: block;
+  border: 3px solid black;
+}
+h1 {
+	margin: 30px 25% 0;
+	padding: 10px 15px;
+	font-size: 40px;
+  border-bottom: none;
+
+	border-radius: 50px 50px 0 0;
+}
+h3 {
+	margin: 0 25%;
+	padding: 0 5px;
+	font-size: 35px;
+	font-weight: 600;
+  border-top: none;
+  border-bottom: none;
+}
+h4 {
+	margin: 30px 25% 0;
+	padding: 20px 15px;
+	font-size: 55px;
+	text-decoration: underline;
+  border-bottom: none;
+	border-radius: 50px 50px 0 0;
+}
+h5 {
+	margin: 0 25% 30px;
+	padding: 20px 15px;
+	font-size: 50px;
+	text-decoration: underline;
+  border-top: none;
+	border-radius: 0 0 50px 50px;
+}
+p {
+  margin: 5px;
+  margin-left: 10px;
+}
+
+/*форма*/
+.form {
+	position: relative;
+	margin: 0 25%;
+	padding: 5px;
+	background: rgb(226, 255, 220);
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  text-align: center;
+}
+.formTitle {
+  font-weight: 750;
+}
+input {
+  margin-left: 10px;
+  padding-left: 10px;
+  width: 90%;
+  height: 25px;
+  border-radius: 5px;
+}
+legend {
+  margin-left: 2%;
+  font-weight: 750;
+  font-size: 25px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 2px 15px;
+	background: rgb(184, 255, 170);
+  color: rgb(0, 0, 0);
+}
+fieldset {
+  border-radius: 10px;
+}
+.first {
+  margin: 15px 10px;
+}
+.white {
+  background-color: white;
+}
+
+/*параметры кнопок*/
+.buttons{
+  text-align: center;
+}
+.buttonProcess, .buttonClear {
+  margin: 5px 25px;
+  font-size: 25px;
+  padding: 10px;
+  font-weight: 750;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+}
+
+/*кнопка "Процесс"*/
+.buttonProcess {
+  background: rgb(33, 167, 40);
+  color: rgb(255, 243, 187);
+}
+.buttonProcess:hover {
+  background: rgb(45, 216, 53);
+  color: rgb(255, 233, 137);
+}
+.buttonProcess:active {
+  background: rgb(53, 255, 63);
+  color: rgb(255, 225, 94);
+}
+
+/*кнопка "Очистить"*/
+.buttonClear {
+  background: rgb(167, 33, 33);
+  color: rgb(255, 243, 187);
+}
+.buttonClear:hover {
+  background: rgb(216, 45, 45);
+  color: rgb(255, 233, 137);
+}
+.buttonClear:active {
+  background: rgb(255, 53, 53);
+  color: rgb(255, 225, 94);
+}
+
+/*Логотипы*/
+header {
+  position: relative;
+}
+.logo1, .logo2 {
+  display: block;
+  position: absolute;
+}
+.logo1 {
+  width: 10%;
+  bottom: 15%;
+  left: 25.5%;
+}
+.logo2 {
+  width: 7%;
+  bottom: 15%;
+  right: 25.5%;
+}
+
+/*Вкладки выбора животного*/
+.item-animals{
+  position: relative;
+  overflow: hidden;
+  width: 100px;
+  height: 500px;
+  background-color: green;
+  border: 1px solid black;
+  display: inline-block;
+  background-position: center;
+  animation-duration: .9s;
+  filter: contrast(85%);
+}
+.elk{
+  background-image: url(../img/Animals_Elk.jpg);
+  background-size: 500%;
+}
+.moose{
+  background-image: url(../img/Animals_Moose.jpg);
+  background-size: 890%;
+}
+.roe{
+  background-image: url(../img/Animals_Roe.jpg);
+  background-size: 800%;
+  background-position: 48% 50%;
+}
+.boar{
+  background-image: url(../img/Animals_Boar.jpg);
+  background-size: 800%;
+}
+.wolf{
+  background-image: url(../img/Animals_Wolf.webp);
+  background-size: 700%;
+  background-position: 60% 40%;
+}
+.marker{
+  width: 100px;
+  height: 500px;
+  position: absolute;
+  top: 85%;
+  border-radius: 10px;
+  mix-blend-mode: hard-light;
+}
+.marker-text{
+  font-weight:900;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+.yellow{
+  background-color: rgb(233, 175, 50);
+  box-shadow: 0 -10px 10px rgb(233, 175, 50);
+}
+.green{
+  background-color: rgb(10, 141, 10);
+  box-shadow: 0 -10px 10px rgb(10, 141, 10);
+}
+.blue{
+  background-color: rgb(0, 68, 255);
+  box-shadow: 0 -10px 10px rgb(0, 68, 255);
+}
+.red{
+  background-color: rgb(219, 9, 9);
+  box-shadow: 0 -10px 10px rgb(219, 9, 9);
+}
+.viol{
+  background-color: rgb(129, 58, 221);
+  box-shadow: 0 -10px 10px rgb(129, 58, 221);
+}
+.item-animals:hover{
+  filter: contrast(100%);
+  animation-duration: .9s;
+}
+.item-animals:active{
+  filter: contrast(125%);
+  animation-duration: .9s;
+}
+.item-animals:hover>div{
+  top: 70%;
+  animation-duration: .8s;
+  animation-name: up;
+  text-decoration: underline white;
+}
+@keyframes up{
+    0%   { top: 85%; }
+    100%   { top: 70%; }
+}
+/**/
